@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Enable the script to exit immediately if a command exits with a non-zero status
 set -o errexit -o nounset -o pipefail

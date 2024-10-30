@@ -2,3 +2,8 @@ debug/
 target/
 coverage
 
+# nix
+.direnv/
+.envrc
+.cargo
+.pre-commit-config.yaml

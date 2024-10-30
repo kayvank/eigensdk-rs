@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 
 # pinning at old foundry commit because of https://github.com/foundry-rs/foundry/issues/7502
@@ -38,12 +38,3 @@ start_anvil_docker() {
         $LOAD_STATE_ANVIL_ARG $DUMP_STATE_ANVIL_ARG --host 0.0.0.0
     sleep 2
 }
-
-
-
-
-
-
-
-
-
